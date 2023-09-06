@@ -27,5 +27,6 @@ def even_game_one():
         if item == 3:
             print(f'Congratulations, {name}!')
 
-if __name__ =='__main__':
+
+if __name__ == '__main__':
     main()
