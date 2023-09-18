@@ -1,6 +1,3 @@
-#!usr/bin/env python3
-
-
 import prompt
 from random import randint
 
@@ -29,7 +26,3 @@ def even_game_one():
             print("Let's try again, {name}!")
         if item == 3:
             print(f'Congratulations, {name}!')
-
-
-if __name__ == '__main__':
-    main()
