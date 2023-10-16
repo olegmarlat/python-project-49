@@ -16,12 +16,12 @@ def game_calc():
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name?")
     print(f'Hello, {name}!')
-    print ('What is the result of the expression?')
-    item == 0
+    print('What is the result of the expression?')
+    item = 0
     math_list = ["+", "-", "*"]
-    while item < 3 :
-        number1 = randint(10,20)
-        number2 = randint(1,10)
+    while item < 3:
+        number1 = randint(10, 20)
+        number2 = randint(1, 10)
         math = random.choice(math_list)
         print(f'Question: {number1} {math} {number2}')
         join = prompt.integer('Your answer: ')
