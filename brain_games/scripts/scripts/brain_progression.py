@@ -14,33 +14,22 @@ def game_progression():
         number2 = randint(100, 150)
         num_progr = randint(1, 8)
         numbers = []
-        for i in range(num1, num2, num_progr):
+        for i in range(number1, number2, num_progr):
             numbers.append(i)
-        number1 = randint(0,9)
+        number1 = randint(0, 9)
         number2 = numbers[number1]
         numbers[number1] = '..'
-        list_numbers = " ".join(map(str,numbers[0:10]))
+        list_numbers = " ".join(map(str, numbers[0:10]))
         print(f'Question: {list_numbers}')
         join = prompt.integer('Your answer: ')
         if join == number2:
-            item +=1
+            item += 1
             print('Correct!')
         else:
             item = 4
             print(
                 f"'{join}' is wrong answer ;(. "
-                f"Corret answer was '{number2}'\nLet's"
-                f"try again, {name}!")
-        if item == 3:
-            print(f'Congratulations, {name}!')
-
-
-
-
-
-            print(
-                f"'{join}' is wrong answer ;(. "
-                f"Correct answer was '{result}'\nLet's "
+                f"Correct answer was '{number2}'\nLet's"
                 f"try again, {name}!")
         if item == 3:
             print(f'Congratulations, {name}!')
