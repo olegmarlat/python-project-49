@@ -2,7 +2,7 @@
 name = "scripts"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Latypov_Oleg <latol179@mail.ru>"]
 packages = [
   { include = "brain_games" },
 ]
