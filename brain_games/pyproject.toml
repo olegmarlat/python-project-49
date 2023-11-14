@@ -2,7 +2,8 @@
 name = "brain_games"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Oleg_Latypov<latol179@mail.ru>"]
+readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
@@ -10,6 +11,14 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
