@@ -10,7 +10,7 @@ def even_game_one():
     item = 0
     while item < 3:
         number = randint(1, 999999999)
-        print(f'Question:{number}')
+        print(f'Question: {number}')
         join = prompt.string('Your answer: ')
         if number % 2 == 0:
             answer = 'yes'
