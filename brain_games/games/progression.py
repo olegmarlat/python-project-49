@@ -4,7 +4,7 @@ from random import randint
 
 def game_progression():
     print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name?")
+    name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
     print("What number is missing in the progression?")
     item = 0
