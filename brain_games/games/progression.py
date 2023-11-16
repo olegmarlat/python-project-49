@@ -19,7 +19,7 @@ def game_progression():
         number2 = numbers[number1]
         numbers[number1] = '..'
         list_numbers = " ".join(map(str, numbers[0:10]))
-        print(f'Question:{list_numbers}')
+        print(f'Question: {list_numbers}')
         join = prompt.integer('Your answer: ')
         if join == number2:
             item += 1
