@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Project 'BRAIN GAMES'"
 authors = ["Oleg Latypov <latol179@mail.ru>"]
-packages = [
-    {include = "brain_games"},
+readme = "README.md"
+packages = [{include = "brain_games"}]
+classifiers = [
+    "Language  - Python - v3.10",
 ]
 [tool.poetry.dependencies]
 python = "^3.10"
