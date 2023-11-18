@@ -3,13 +3,13 @@ from random import randint
 import random
 
 
-def math_operator(a, b, c):
-    if a == "+":
-        return b + c
-    elif a == "-":
-        return b - c
-    elif a == "*":
-        return b * c
+def math_operator(addit, subtr, multi):
+    if addit == "+":
+        return subtr + multi
+    elif addit == "-":
+        return subtr - multi
+    elif addit == "*":
+        return subtr * multi
 
 
 def game_calc():
