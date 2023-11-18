@@ -6,7 +6,7 @@ authors = ["Oleg Latypov <latol179@mail.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 classifiers = [
-    "Language  - Python - v3.10",
+    "Language :: Python :: - v3.10",
 ]
 [tool.poetry.dependencies]
 python = "^3.10"
