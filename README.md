@@ -17,6 +17,17 @@
 
 
 
+---
+### How it works
+[**brain-even**]https://asciinema.org/a/XL2l1sbHKcxaPdhpRBBMi3Obz
+
+[**brain-calc**]https://asciinema.org/a/9A7p6iTh2BUHNzNeYDsb3upCN
+
+[**brain-gcd**]https://asciinema.org/a/1jG3rxggPbj9xvar5MlFejE14
+
+[**brain-prime**]https://asciinema.org/a/sMfhm3PIAh4iA1sNefSVkkeur
+
+[**brain-progression**]https://asciinema.org/a/ckOngAavJIiAUX9iMNNLHfggM
 
 
 
