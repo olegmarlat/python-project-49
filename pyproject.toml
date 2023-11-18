@@ -6,11 +6,12 @@ authors = ["Oleg Latypov <latol179@mail.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 classifiers = [
-    "Language :: Python :: - v3.10",
+    "Language :: Python ::  ^3.10",
 ]
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
+pip = "^23.3.1"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
