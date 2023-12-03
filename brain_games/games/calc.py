@@ -1,4 +1,4 @@
-import prompt
+#   import prompt
 from random import randint
 import random
 
