@@ -1,27 +1,25 @@
 import prompt
-from random import randint
-import random
 
 
-def game_launch():
+def game_launch(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('ВОПРОС ИГРЫ?')
-    
-    # в каждой игре трижды задается вопрос при удачных ответах, иначе проигрыш
-    # как это реализовать на практике? при помощи цикла?
-      
-    #    join = prompt.integer('Your answer: ')
-    #   result = math_operator(math, number1, number2)
-        if result == join:
-            item += 1
-            print('Correct!')
+    print(game)
+    rounds_count = 3
+
+    for n in range(rounds_count):
+        question, correct_answer = game.get_question()
+        print(f'Question: {question}')
+        player_answer = input('Your answer:')
+
+        if player_answer != correct_answer:
+            print(f"'{player_answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'\n"
+                  f"Let's try again, {name}!")
+            break
         else:
-            item = 4
-            print(
-                f"'{join} is wrong answer ;(."
-                f"Correct answer was '{result}'\nLet's "
-                f"try again, {name}!")
-        if item == 3:
-            print(f'Congratulations, {name}!')
+            print('Correct!')
+
+    else:
+        print(f'Congratulations, {name}!')
