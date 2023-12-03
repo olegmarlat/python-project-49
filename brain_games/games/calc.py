@@ -22,3 +22,4 @@ def game_calc():
         math = random.choice(math_list)
         question = ('{number1} {math} {number2}')
         correct_answer = math_operator(math, number1, number2)
+    return question, correct_answer
