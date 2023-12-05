@@ -1,6 +1,8 @@
 import prompt
 from random import randint
 
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def it_prime(num):
     if num < 2:
@@ -19,7 +21,6 @@ def prime_game():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     item = 0
     while item < 3:

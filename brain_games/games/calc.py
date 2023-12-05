@@ -1,6 +1,8 @@
-#   import prompt
-from random import randint
 import random
+from random import randint
+
+
+GAME_TASK = 'What is the result of the expression?'
 
 
 def math_operator(addit, subtr, multi):
@@ -12,8 +14,7 @@ def math_operator(addit, subtr, multi):
         return subtr * multi
 
 
-def game_calc():
-    print('What is the result of the expression?')
+def game_flow():
     item = 0
     math_list = ["+", "-", "*"]
     while item < 3:

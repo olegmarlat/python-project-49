@@ -3,11 +3,13 @@ from random import randint
 import math
 
 
+GAME_TASK = 'Find the greatest common divisor of given numbers.'
+
+
 def game_gcd():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Find the greatest common divisor of given numbers.')
     item = 0
     while item < 3:
         number1 = randint(1, 50)

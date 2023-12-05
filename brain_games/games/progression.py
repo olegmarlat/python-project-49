@@ -2,11 +2,13 @@ import prompt
 from random import randint
 
 
+GAME_TASK = 'What number is missing in the progression?'
+
+
 def game_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('What number is missing in the progression?')
     item = 0
     while item < 3:
         number1 = randint(1, 10)
