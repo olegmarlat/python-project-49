@@ -13,4 +13,4 @@ def game_flow():
             correct_answer = "yes"
         else:
             correct_answer = "no"
-    return correct_answer, question
+    return question, correct_answer
