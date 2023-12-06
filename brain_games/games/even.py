@@ -10,7 +10,7 @@ def game_flow():
         question = randint(1, 999999999)
         print(f'Question: {question}')
         if question % 2 == 0:
-            correct_answer = 'yes'
+            correct_answer = "yes"
         else:
-            correct_answer = 'no'
+            correct_answer = "no"
     return correct_answer, question
