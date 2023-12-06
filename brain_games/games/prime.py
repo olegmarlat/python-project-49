@@ -21,5 +21,4 @@ def game_flow():
     while item < 3:
         question = randint(1, 50)
         correct_answer = it_prime(question)
-        print(f'Question: {question}')
     return question, correct_answer

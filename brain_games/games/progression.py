@@ -17,5 +17,4 @@ def game_progression():
         correct_answer = numbers[number1]
         numbers[number1] = '..'
         question = " ".join(map(str, numbers[0:10]))
-        print(f'Question: {question}')
     return question, correct_answer
