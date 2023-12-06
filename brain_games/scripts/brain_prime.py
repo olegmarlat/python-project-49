@@ -2,7 +2,7 @@
 
 
 from brain_games.launcher import game_launch
-from brain_games.games.prime import prime
+from brain_games.games import prime
 
 
 def main():

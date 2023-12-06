@@ -2,7 +2,7 @@
 
 
 from brain_games.launcher import game_launch
-from brain_games.games.progression import progression
+from brain_games.games import progression
 
 
 def main():

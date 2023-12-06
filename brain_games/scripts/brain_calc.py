@@ -2,7 +2,7 @@
 
 
 from brain_games.launcher import game_launch
-from brain_games.games.calc import calc
+from brain_games.games import calc
 
 
 def main():

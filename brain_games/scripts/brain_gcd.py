@@ -2,7 +2,7 @@
 
 
 from brain_games.launcher import game_launch
-from brain_games.games.gcd import gcd
+from brain_games.games import gcd
 
 
 def main():
