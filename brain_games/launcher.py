@@ -7,9 +7,10 @@ def game_launch(game):
     print(f'Hello, {name}!')
     print(game.GAME_TASK)
     rounds_count = 3
+    question = game.question
+    correct_answer = game.correct_answer
 
     for n in range(rounds_count):
-        question, correct_answer = game
         print(f'Question: {question}')
         player_answer = input('Your answer:')
 
