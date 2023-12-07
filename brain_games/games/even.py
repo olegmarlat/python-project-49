@@ -1,3 +1,5 @@
+
+import prompt
 from random import randint
 
 
