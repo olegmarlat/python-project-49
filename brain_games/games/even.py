@@ -8,7 +8,4 @@ def game_flow():
     item = 0
     while item < 3:
         question = randint(1, 999999)
-        if question % 2 == 0:
-            return "yes"
-        else:
-            return "no"
+    return "yes" if question % 2 == 0 else "no"
