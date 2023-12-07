@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from brain_games import game_launch
+from brain_games.launcher import game_launch
 from brain_games.games import calc
 
 
