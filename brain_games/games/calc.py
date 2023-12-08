@@ -19,6 +19,6 @@ def game_flow():
     number1 = randint(10, 20)
     number2 = randint(1, 10)
     math = random.choice(math_list)
-    question = "{number1} {math} {number2}"
+    question = f"{number1} math {number2}"
     correct_answer = math_operator(math, number1, number2)
     return question, correct_answer
