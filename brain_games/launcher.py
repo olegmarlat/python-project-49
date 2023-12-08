@@ -5,7 +5,7 @@ def game_launch(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.DESCRIPTION)
+    print(game.GAME_TASK)
     rounds_count = 3
     for n in range(rounds_count):
         question, correct_answer = game.game_flow()
