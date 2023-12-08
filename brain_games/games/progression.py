@@ -9,8 +9,8 @@ def game_flow():
     number2 = randint(100, 150)
     num_progr = randint(1, 8)
     numbers = []
-    for i in range(number1, number2, num_progr):
-        numbers.append(i)
+    for i in range(number2):
+        numbers.append(number1 + num_progr)
         number1 = randint(0, 9)
         correct_answer = numbers[number1]
         numbers[number1] = '..'
