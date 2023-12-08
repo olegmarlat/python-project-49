@@ -5,7 +5,7 @@ GAME_TASK = 'What number is missing in the progression?'
 
 
 def game_flow():
-    number1 = randint(1, 10)
+    number1 = randint(1, 9)
     number2 = randint(100, 150)
     num_progr = randint(1, 8)
     numbers = []
