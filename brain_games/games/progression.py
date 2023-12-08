@@ -15,4 +15,4 @@ def game_flow():
         correct_answer = numbers[number1]
         numbers[number1] = '..'
         question = " ".join(list(map(str, numbers[0:10])))
-        return question, str(correct_answer)
+    return question, str(correct_answer)
