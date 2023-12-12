@@ -17,8 +17,6 @@ def it_prime(num):
 
 
 def game_flow():
-    item = 0
-    while item < 3:
-        question = randint(1, 50)
-        correct_answer = it_prime(question)
+    question = randint(1, 50)
+    correct_answer = it_prime(question)
     return question, correct_answer
