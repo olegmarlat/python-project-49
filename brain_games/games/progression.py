@@ -1,18 +1,17 @@
-from random import randint
+from random import randint, choice
 
 
 GAME_TASK = 'What number is missing in the progression?'
 
 
 def game_flow():
-    number1 = randint(2, 9)
-    number2 = randint(100, 150)
-    num_progr = randint(1, 8)
-    numbers = []
-    for i in range(number2):
-        numbers.append(number1 + num_progr)
-        number1 = randint(0, 9)
-        correct_answer = numbers[number1]
-        numbers[number1] = '..'
-        question = " ".join(list(map(str, numbers[0:10])))
+    number_start = randint(2, 9)
+    length = randint(5, 10)
+    number_diff = randint(1, 8)
+    number_end = number_start + (length - 1) * number_diff + 1
+    progression = list(range(number_start, number_end, number_diff))
+    hidden_index = progression.index(choice(progression))
+    correct_answer = progression[hidden_index]
+    progression[hidden_index] = '..'
+    question = ' '.join([str(n) for n in progression])
     return question, str(correct_answer)
