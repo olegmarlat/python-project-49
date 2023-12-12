@@ -19,4 +19,4 @@ def it_prime(num):
 def game_flow():
     question = randint(1, 50)
     correct_answer = it_prime(question)
-    return question, correct_answer
+    return str(question), correct_answer
