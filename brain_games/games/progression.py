@@ -4,7 +4,7 @@ from random import randint, choice
 GAME_TASK = 'What number is missing in the progression?'
 
 
-def game_flow():
+def get_game():
     number_start = randint(2, 9)
     length = randint(5, 10)
     number_diff = randint(1, 8)

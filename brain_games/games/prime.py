@@ -3,7 +3,7 @@ from random import randint
 GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def it_prime(num):
+def is_prime(num):
     if num < 2:
         return 'no'
     n = 0
@@ -16,7 +16,7 @@ def it_prime(num):
         return 'no'
 
 
-def game_flow():
+def get_game():
     question = randint(1, 50)
-    correct_answer = it_prime(question)
+    correct_answer = is_prime(question)
     return str(question), correct_answer
