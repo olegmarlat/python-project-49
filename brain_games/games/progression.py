@@ -14,7 +14,7 @@ def create_progression():
 
 
 def get_game():
-    progression, correct_answer, hidden_index = create_progression()
+    progression, correct_answer = create_progression()
     hidden_index = progression.index(choice(progression))
     correct_answer = progression[hidden_index]
     progression[hidden_index] = '..'
