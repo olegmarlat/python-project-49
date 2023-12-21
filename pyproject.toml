@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Project 'BRAIN GAMES'"
 authors = ["Oleg Latypov <latol179@mail.ru>"]
 readme = "README.md"
-repository = https://github.com/olegmarlat/python-project-49/blob/main/README.md
 packages = [{include = "brain_games"}]
 classifiers = [
     "Language :: Python ::  ^3.10",
