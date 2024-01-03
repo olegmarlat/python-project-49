@@ -18,15 +18,12 @@ ___
 
 ---
 ### How it works
-[**brain-even**]https://asciinema.org/a/XL2l1sbHKcxaPdhpRBBMi3Obz
+**brain-even**[![asciicast](https://asciinema.org/a/jNpe37BI5sl9OaXzpZvJF5gMt.svg)](https://asciinema.org/a/jNpe37BI5sl9OaXzpZvJF5gMt)
 
-[**brain-calc**]https://asciinema.org/a/9A7p6iTh2BUHNzNeYDsb3upCN
+**brain-calc**[![asciicast](https://asciinema.org/a/rat4pyN7C0RxIsyUVtJzQ0qec.svg)](https://asciinema.org/a/rat4pyN7C0RxIsyUVtJzQ0qec)
 
-[**brain-gcd**]https://asciinema.org/a/1jG3rxggPbj9xvar5MlFejE14
+**brain-gcd**[![asciicast](https://asciinema.org/a/zU9qHYbDJLzAiPywHlEZkCFwp.svg)](https://asciinema.org/a/zU9qHYbDJLzAiPywHlEZkCFwp)
 
-[**brain-prime**]https://asciinema.org/a/sMfhm3PIAh4iA1sNefSVkkeur
+**brain-prime**[![asciicast](https://asciinema.org/a/Az2xig2mz9DnZSpaSLfg9RJ4W.svg)](https://asciinema.org/a/Az2xig2mz9DnZSpaSLfg9RJ4W)
 
-[**brain-progression**]https://asciinema.org/a/ckOngAavJIiAUX9iMNNLHfggM
-
-
-
+**brain-progression**[![asciicast](https://asciinema.org/a/lDSM4UMpBHtQi8X8ch6jLYIEe.svg)](https://asciinema.org/a/lDSM4UMpBHtQi8X8ch6jLYIEe)
