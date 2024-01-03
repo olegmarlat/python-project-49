@@ -19,4 +19,4 @@ def game_launch(game):
             return
         else:
             print('Correct!')
-        print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')
